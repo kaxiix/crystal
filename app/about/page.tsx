@@ -99,7 +99,7 @@ const page = () => {
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-3xl space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Why Bahar Jeddah Food Co?
+              Why Crystal Fruits?
             </h2>
 
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
@@ -125,85 +125,6 @@ const page = () => {
                   maintaining the freshness and quality of the goods from our
                   suppliers to our client&apos;s kitchens.
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="w-full py-12 md:py-24 lg:py-32">
-        <div className="container px-4 md:px-6">
-          <div className="mx-auto max-w-3xl space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Our Clients
-            </h2>
-            <p className="text-muted-foreground md:text-xl">
-              We are proud to have worked with a diverse range of clients, from
-              startups to enterprise-level organizations. Here are just a few of
-              the companies weve had the pleasure of partnering with.
-            </p>
-            <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5">
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/client1.jpg"
-                  width={140}
-                  height={70}
-                  alt="Client Logo"
-                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/client2.jpg"
-                  width={140}
-                  height={70}
-                  alt="Client Logo"
-                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/client3.jpg"
-                  width={140}
-                  height={70}
-                  alt="Client Logo"
-                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/client4.jpg"
-                  width={140}
-                  height={70}
-                  alt="Client Logo"
-                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/client5.jpg"
-                  width={140}
-                  height={70}
-                  alt="Client Logo"
-                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/client6.jpg"
-                  width={140}
-                  height={70}
-                  alt="Client Logo"
-                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/client7.jpg"
-                  width={140}
-                  height={70}
-                  alt="Client Logo"
-                  className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                />
               </div>
             </div>
           </div>

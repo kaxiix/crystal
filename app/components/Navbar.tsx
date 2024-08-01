@@ -19,9 +19,9 @@ export default function Navbar() {
   const pathname = usePathname();
   const { handleCartClick } = useShoppingCart();
   return (
-    <header className=" border-b-2 border-black/20  bg-[url('/bg.svg')] bg-fixed  backdrop-blur-lg bg-[#000080]/40   ">
+    <header className=" border-b-2 border-black/20    backdrop-blur-lg bg-[#000080]/70   ">
       <div className="flex items-center   md:rounded-b-2xl  justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
-        <div className="p-2 hover:scale-105 bg-white my-2 rounded-2xl shadow-2xl shadow-[#000080]">
+        <div className="p-2 hover:scale-105 bg-white my-2 rounded-2xl shadow-2xl shadow-[#800000]">
           <Link href="/">
             <Image
               className="   "
@@ -38,7 +38,7 @@ export default function Navbar() {
             <div key={idx}>
               {pathname === link.href ? (
                 <Link
-                  className="text-lg font-semibold text-[#000080]"
+                  className="text-lg bg-[#800000] p-2 rounded-xl px-5  font-semibold text-white"
                   href={link.href}
                 >
                   {link.name}
@@ -46,7 +46,7 @@ export default function Navbar() {
               ) : (
                 <Link
                   href={link.href}
-                  className="text-lg font-semibold text-gray-600 transition duration-100  hover:text-black"
+                  className="text-lg font-semibold bg-green-500/80 p-2 rounded-xl px-5  text-black transition duration-100  hover:text-black"
                 >
                   {link.name}
                 </Link>
