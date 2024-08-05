@@ -8,7 +8,7 @@ const page = () => {
     <div className="pt-10 lg:pt-0">
       <section className="w-full  md:px-20 md:py-10 bg-[url('/bg.svg')] bg-fixed border-b-2 ">
         <Image
-          src="/about.webp"
+          src="/about.jpg"
           width={1200}
           height={500}
           alt="About Us"

@@ -13,6 +13,12 @@
 .animate-scroll {
   animation: scroll 10s linear infinite;
 }
+:root {
+  --font-exo2: "Exo 2", sans-serif;
+}
+body {
+  font-family: var(--font-exo2);
+}
 
 @layer base {
   :root {
