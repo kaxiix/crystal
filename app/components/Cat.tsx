@@ -22,9 +22,9 @@ const Cat = () => {
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"
-          className="focus:ring-2 ring-4 gap-3 hover:scale-110 text-white  font-bold flex justify-between px-5 bg-[#000080] focus:ring-green-200"
+          className="focus:ring-2 ring-4 gap-3 hover:scale-110   font-bold flex justify-between px-5 bg-blue-500/60 text-black focus:ring-green-200"
         >
-          Filter
+          Select Produce
           <MdArrowDropDownCircle className="w-5 text-white  h-5" />
         </Button>
       </DropdownMenuTrigger>
@@ -35,32 +35,37 @@ const Cat = () => {
           <a href="/all">
             <DropdownMenuRadioItem value="top">All</DropdownMenuRadioItem>
           </a>
-          <a href="/Oil">
-            <DropdownMenuRadioItem value="top">Oil</DropdownMenuRadioItem>
+          <a href="/Grapes">
+            <DropdownMenuRadioItem value="top">Grapes</DropdownMenuRadioItem>
           </a>
-          <a href="/Refreshments">
+          <a href="/Lemon">
+            <DropdownMenuRadioItem value="top">Lemon</DropdownMenuRadioItem>
+          </a>
+          <a href="/Pineapple">
+            <DropdownMenuRadioItem value="top">Pineapple</DropdownMenuRadioItem>
+          </a>
+          <a href="/Pomegranate">
             <DropdownMenuRadioItem value="top">
-              Refreshments
+              Pomegranate
             </DropdownMenuRadioItem>
           </a>
-          <a href="/Potato-Fries">
-            <DropdownMenuRadioItem value="top">
-              Potato-Fries
-            </DropdownMenuRadioItem>
+          <a href="/Pears">
+            <DropdownMenuRadioItem value="top">Pears</DropdownMenuRadioItem>
           </a>
-          <a href="/Ice-Cream">
-            <DropdownMenuRadioItem value="top">Ice-Cream</DropdownMenuRadioItem>
+          <a href="/Mango">
+            <DropdownMenuRadioItem value="top">Mango</DropdownMenuRadioItem>
           </a>
-          <a href="/Condiments">
-            <DropdownMenuRadioItem value="top">
-              Condiments
-            </DropdownMenuRadioItem>
+          <a href="/Kiwi">
+            <DropdownMenuRadioItem value="top">Kiwi</DropdownMenuRadioItem>
           </a>
-          <a href="/Chicken">
-            <DropdownMenuRadioItem value="top">Chicken</DropdownMenuRadioItem>
+          <a href="/Orange">
+            <DropdownMenuRadioItem value="top">Orange</DropdownMenuRadioItem>
           </a>
-          <a href="/Bun">
-            <DropdownMenuRadioItem value="top">Bun</DropdownMenuRadioItem>
+          <a href="/Banana">
+            <DropdownMenuRadioItem value="top">Banana</DropdownMenuRadioItem>
+          </a>
+          <a href="/Apple">
+            <DropdownMenuRadioItem value="top">Apple</DropdownMenuRadioItem>
           </a>
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>

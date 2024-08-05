@@ -14,8 +14,10 @@ const Newest = () => {
   return (
     <div>
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <div className="text-4xl font-bold">Our clients</div>
-        <div className="relative shadow-2xl mt-10 rounded-2xl bg-[#800000] overflow-hidden">
+        <div className="text-4xl text-center font-bold">
+          Our Esteemed Partners
+        </div>
+        <div className="relative shadow-2xl mt-10 rounded-2xl border-2 border-black bg-blue-500/60 overflow-hidden">
           <div className="flex items-center p-5  animate-scroll  space-x-4">
             {logos.concat(logos).map((src, index) => (
               <div

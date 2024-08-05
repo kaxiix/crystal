@@ -1,5 +1,6 @@
-// components/Hero.tsx
 import React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Hero = () => {
   return (
@@ -16,11 +17,10 @@ const Hero = () => {
         </video>
       </div>
       <div className="video-content space-y-2 z-10">
-        <h1 className="font-light text-6xl">
-          Tanjil didnt send vid after asking 50 times
-        </h1>
-        <h3 className="font-light text-3xl">and idk what to put here</h3>
+        <h1 className="font-semibold text-6xl">Choose Fresh</h1>
       </div>
+
+      {/* Mobile Navigation Links */}
     </section>
   );
 };

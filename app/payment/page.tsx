@@ -165,21 +165,14 @@ const Page: React.FC = () => {
                     >
                       City*
                     </label>
-                    <select
+                    <input
                       required
                       value={city}
                       onChange={(e) => setCity(e.target.value)}
                       id="select-city-input-3"
                       className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
-                    >
-                      <option value="" disabled selected>
-                        Please select
-                      </option>
-                      <option value="jeddah">Jeddah</option>
-                      <option value="makkah">Makkah</option>
-                      <option value="taif">Taif</option>
-                      <option value="yanbu">Yanbu</option>
-                    </select>
+                      placeholder="Please enter your city"
+                    />
                   </div>
 
                   <div>

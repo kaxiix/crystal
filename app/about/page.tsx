@@ -5,8 +5,8 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
-      <section className="w-full md:px-20 md:py-10 bg-[url('/bg.svg')] bg-fixed border-b-2 ">
+    <div className="pt-10 lg:pt-0">
+      <section className="w-full  md:px-20 md:py-10 bg-[url('/bg.svg')] bg-fixed border-b-2 ">
         <Image
           src="/about.webp"
           width={1200}
@@ -22,22 +22,23 @@ const page = () => {
               About Our Company
             </h2>
             <p className="text-muted-foreground md:text-xl">
-              Bahar Jeddah Food Co. is a premier supplier of premium food
-              products, serving the elite restaurants, luxury hotels, and
-              esteemed businesses of Jeddah. We specialize in sourcing and
-              delivering high-quality ingredients at competitive prices,
-              ensuring our clients always receive the best value for their
-              investment. Our diverse product range, from gourmet specialties to
-              everyday essentials, is carefully curated to meet the highest
-              standards of taste and quality.
+              Welcome to Crystal Fruits Trading Co., your premier wholesale
+              supplier of fresh fruits. We cater to large restaurant chains,
+              hotels, and events, ensuring top-quality produce with every
+              delivery.
             </p>
             <p className="text-muted-foreground md:text-xl">
-              Our commitment to excellence, affordability, and exceptional
-              customer service sets us apart in the food industry. At Bahar
-              Jeddah Food Co., we believe that top-tier products shouldn&apos;t
-              come with a high price tag. We are dedicated to bringing the
-              finest flavors to your table, making us your trusted and
-              cost-effective partner in every culinary endeavor.
+              With countless trucks and extensive storage facilities, we
+              guarantee the freshest fruits, delivered on time. Our strong
+              partnerships with growers enable us to offer a diverse range of
+              fruits year-round.
+            </p>
+            <p className="text-muted-foreground md:text-xl">
+              At Crystal Fruits Trading Co., we prioritize quality, service, and
+              sustainability. Experience the best in fresh fruit supply with us.
+            </p>
+            <p className="text-muted-foreground md:text-xl">
+              Crystal Fruits Trading Co. – Freshness Delivered Daily.
             </p>
           </div>
         </div>
@@ -54,7 +55,7 @@ const page = () => {
               the success of our company.
             </p>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
-              <div className="rounded-lg border bg-card p-6 shadow-sm">
+              {/* <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
                   src="/ow1.jpg"
                   width={200}
@@ -66,8 +67,8 @@ const page = () => {
                   Mr. Monirul Islam
                 </h3>
                 <p className="text-muted-foreground">CEO</p>
-              </div>
-              <div className="rounded-lg border bg-card p-6 shadow-sm">
+              </div> */}
+              {/* <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
                   src="/ow2.jpg"
                   width={200}
@@ -77,7 +78,7 @@ const page = () => {
                 />
                 <h3 className="mt-4 text-lg font-semibold">Mr. Ali Ammar</h3>
                 <p className="text-muted-foreground">Angel Investor</p>
-              </div>
+              </div> */}
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <Image
                   src="/ow3.jpg"

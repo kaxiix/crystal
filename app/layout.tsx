@@ -5,6 +5,7 @@ import CartProvider from "./components/Providers";
 import Navbar from "./components/Navbar";
 import ShoppingCartModal from "./components/ShoppingCartModal";
 import Footer from "./components/Footer";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +24,21 @@ export default function RootLayout({
       <body className={inter.className}>
         <CartProvider>
           <Navbar />
-          <ShoppingCartModal />
-          {children}
+          <div className="relative">
+            <nav className="lg:hidden absolute top-0 left-0 right-0 z-50 w-full flex justify-around bg-black/60 text-white py-2">
+              <Link href="/" className="px-4">
+                Home
+              </Link>
+              <Link href="/all" className="px-4">
+                Products
+              </Link>
+              <Link href="/about" className="px-4">
+                About us
+              </Link>
+            </nav>
+            <ShoppingCartModal />
+            {children}
+          </div>
           <Footer />
         </CartProvider>
       </body>

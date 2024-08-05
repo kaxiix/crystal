@@ -26,12 +26,17 @@ const Footer = () => {
           </Link>
         </div>
         <div className="grid gap-1 ">
-          <h3 className="font-semibold">Contact</h3>
-          <a href="mailto:baharjeddahfoodco@gmail.com">
-            <p className="text-sm">baharjeddahfoodco@gmail.com</p>
+          <h3 className="font-semibold">JEDDAH</h3>
+          <a href="mailto:accounts@crystalfruits.com">
+            <p className="text-sm">accounts@crystalfruits.com</p>
           </a>
           <a href="https://wa.me/+966531024948" target="_blank">
-            <p className="text-sm">+966 53 102 4948</p>
+            <p className="text-sm">+966507537467</p>
+          </a>
+          <p className="text-sm">Al Safa District</p>
+          <p className="text-sm">Jeddah, Saudi Arabia</p>
+          <a href="https://maps.app.goo.gl/qs5JZCkn1a5tUkLG6" target="_blank">
+            <p className="text-sm">SEE ON MAP</p>
           </a>
         </div>
         <div className="flex flex-col items-start gap-1">

@@ -52,7 +52,7 @@ export default function ShoppingCartModal() {
                         <div>
                           <div className="flex justify-between text-base font-medium text-gray-900">
                             <h3>{entry.name}</h3>
-                            <p className="ml-4">SAR {entry.price}</p>
+                            <p className="ml-4">SAR {entry.price}/kg</p>
                           </div>
                           <p className="mt-1 text-sm text-gray-500 line-clamp-2">
                             {entry.description}
