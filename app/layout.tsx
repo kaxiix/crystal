@@ -1,6 +1,5 @@
-// app/layout.tsx
 import type { Metadata } from "next";
-import { Exo_2 } from "next/font/google";
+import { Exo_2, Bitter } from "next/font/google";
 import "./globals.css";
 import CartProvider from "./components/Providers";
 import Navbar from "./components/Navbar";
@@ -9,6 +8,7 @@ import Footer from "./components/Footer";
 import Link from "next/link";
 
 const exo2 = Exo_2({ subsets: ["latin"], variable: "--font-exo2" });
+const bitter = Bitter({ subsets: ["latin"], variable: "--font-bitter" });
 
 export const metadata: Metadata = {
   title: "Crystal fruits",
@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={exo2.variable}>
+    <html lang="en" className={`${exo2.variable} ${bitter.variable}`}>
       <body className="font-exo2">
         <CartProvider>
           <Navbar />

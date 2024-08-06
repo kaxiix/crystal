@@ -15,11 +15,37 @@
 }
 :root {
   --font-exo2: "Exo 2", sans-serif;
+  --font-bitter: "Bitter", serif;
 }
 body {
   font-family: var(--font-exo2);
 }
 
+.font-bitter {
+  font-family: var(--font-bitter);
+}
+
+/* Gradient Animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(270deg, #32cd32, #ffd700, #ff4500, #32cd32);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
