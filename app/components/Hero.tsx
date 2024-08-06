@@ -17,7 +17,7 @@ const Hero = () => {
         </video>
       </div>
       <div className="video-content space-y-2 z-10">
-        <h1 className="font-semibold tracking-widest text-6xl md:text-8xl bg-clip-text text-transparent font-exo2 text-white">
+        <h1 className="font-semibold tracking-widest text-6xl md:text-8xl bg-clip-text text-transparent font-exo2 animated-gradient">
           Choose Fresh
         </h1>
       </div>
